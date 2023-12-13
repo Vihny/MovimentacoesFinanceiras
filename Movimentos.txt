@@ -1,0 +1,7 @@
+1,Crédito,Depósito,100.00,2023-01-01
+2,Débito,Compra no Mercado,-50.00,2023-01-02
+3,Crédito,Salário,2000.00,2023-01-03
+4,Débito,Pagamento de Conta,-150.00,2023-01-05
+5,Débito, Depósitar,200.00,2023-02-01
+6,Débito, Depósitar,500.00,2023-01-01
+7,Débito,Salário,300.00,2023-03-03
