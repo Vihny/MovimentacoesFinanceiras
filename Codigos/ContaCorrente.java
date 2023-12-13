@@ -20,7 +20,7 @@ public class ContaCorrente {
         for (int i = 0; i < movimentos.size(); i++) {
             MovimentoFinanceiro movimento = movimentos.get(i);
             if (movimento.getCodigo() == codigo) {
-                String tipoEstorno = movimento.getTipo().equals("Débito") ? "Crédito" : "Débito";
+                String tipoEstorno = movimento.getTipo().equals("Débito") ? "Débito" : "Crédito";
                 MovimentoFinanceiro estorno = new MovimentoFinanceiro(tipoEstorno, "Estorno de " + movimento.getTipo(),
                         Math.abs(movimento.getValor()), movimento.getData());
                 movimentos.add(estorno);
